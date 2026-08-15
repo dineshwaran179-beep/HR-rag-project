@@ -1,0 +1,29 @@
+# 🤖 AI HR Recruitment Assistant
+
+AI-powered recruitment assistant built using LangGraph 
+multi-agent architecture.
+
+## ✨ Features
+- 📄 Resume parsing using AI
+- 🎯 Job description matching  
+- ⭐ Candidate scoring out of 100
+- 🏆 Multiple resume comparison with ranking
+- 📊 Visual score dashboard with Plotly charts
+- 📥 Downloadable HR reports
+
+## 🛠️ Tech Stack
+Python | LangGraph | LangChain | Groq LLaMA 3.1 | Streamlit | Plotly
+
+## 🚀 How to Run
+1. Clone: git clone https://github.com/YourUsername/ai-hr-recruitment-assistant
+2. Install: pip install -r requirements.txt
+3. Add GROQ_API_KEY in .env file
+4. Run: streamlit run app.py
+
+## 🏗️ Architecture
+5 AI Agents connected via LangGraph:
+- Agent 1 → Resume Parser
+- Agent 2 → Job Matcher
+- Agent 3 → Candidate Scorer
+- Agent 4 → Report Generator
+- Agent 5 → Comparison & Ranking
